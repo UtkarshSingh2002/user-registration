@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  
+  }
+  
+  html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  #userForm {
+    background-size: cover;
+    overflow-y: scroll;
+    color: white;
+    height: 100%;
+    width: 100%;
+    /* padding: 100px; */
+    /* background-image: url("bg1.jpg"); */
+    background-color: rgb(107, 47, 47);
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px rgba(235, 235, 235, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    /* opacity: 0.9; */
+  }
+  
+  #hidden-fields{
+    display: flex;
+    /* flex-direction: row; */
+    width: 60%;
+  }
+  #name-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+  }
+  #contact-div{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  #address-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+  }
+  #credentials-div{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  
+  #name-div input{
+    width: 49%;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid rgba(210, 214, 140, 0.9);
+    border-radius: 3px;
+    border-radius: 5px;
+    background-color: #090c18cf;
+    box-shadow: 0 0 5px rgb(24 24 26);
+  }
+  #address-div input{
+    width: 24%;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid rgba(210, 214, 140, 0.9);
+    border-radius: 3px;
+    border-radius: 5px;
+    background-color: #090c18cf;
+    box-shadow: 0 0 5px rgb(24 24 26);
+  }
+  
+  #save-btn{
+    border-radius: 5px;
+    width: 60%;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #0b1425f5;
+  }
+  
+  #contact-div input, #credentials-div input, #hidden-div input
+  #userForm button {
+    width: 100%;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid rgba(210, 214, 140, 0.9);
+    border-radius: 3px;
+    border-radius: 5px;
+    background-color: #090c18cf;
+    box-shadow: 0 0 5px rgb(24 24 26);
+  }
+  #userForm input::placeholder {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  #userForm button {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #0b1425f5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(70, 68, 68, 0.5);
+  }
+  #userForm button:hover {
+    background-color: #0e1c36f5;
+  }
+  #userForm input:-webkit-autofill,
+  #userForm input:-webkit-autofill:hover,
+  #userForm input:-webkit-autofill:focus,
+  #userForm input:-webkit-autofill:active {
+    background-color: #ededed !important;
+    color: #ffffff;
+    -webkit-box-shadow: 0 0 5px rgba(134, 134, 134, 0.9) inset !important;
+    box-shadow: 0 0 5px rgba(210, 214, 140, 0.9) inset !important;
+  }
+  #userForm h2 {
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff6f61, #d742f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+  
+  /* @media screen and (max-width: 500px){
+    #save-btn{
+      background-color: red;
+    }
+  } */
